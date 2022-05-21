@@ -81,7 +81,9 @@
         &.open{
             transform: translateY(0);
         }
-
+        .active{
+            a{color: $secondary-color;}
+        }
         &__item{
             position: relative;
             font-weight: 700;
@@ -95,6 +97,7 @@
             &.open{
                 transform: translateX(0);
             }
+            
             a{
                 display: inline-block;
                 font-size: 2rem;
